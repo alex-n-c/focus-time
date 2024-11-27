@@ -1,4 +1,4 @@
-<h1 align="center"> Intro HMTML, CSS e JS </h1>
+<h1 align="center"> Intro HTML, CSS e JS </h1>
 
 <p align="center">
 Projeto simples de um temporizador.
