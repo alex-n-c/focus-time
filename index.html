@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br" class=""> <!--running--> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/favicon.svg" type="image/x-svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script type="module" src="./src/main.js" defer></script>
+
+    <title>Focus Times 2.0</title>
+</head>
+<body>
+    <div class="container">
+        <section id="wrapper-timer">
+            <section id="timer">
+                <span id="minutes">25</span>
+                <span>:</span>
+                <span id="seconds">00</span>                
+            </section>            
+            <section id="controls">                
+                <button class="button-control ph ph-play-circle" data-action="play">
+                    <span class="sr-only">Play</span>
+                </button>              
+                <button class="button-control ph ph-pause-circle" data-action="pause">
+                    <span class="sr-only">Pause</span>
+                </button>
+                <button class="button-control ph ph-stop-circle" data-action="stop">
+                    <span class="sr-only">Stop</span>
+                </button>
+                <button class="button-control ph ph-plus-circle" data-action="plus">
+                    <span class="sr-only">Aumentar volume</span>
+                </button>
+                <button id="minus" class="button-control ph ph-minus-circle" data-action="minus">
+                    <span class="sr-only">Diminuir volume</span>
+                </button>
+            </section>
+        </section>
+        <section id="wrapper-sounds">
+            <button class="button-card ph ph-tree"  data-action="tree">
+                <span class="sr-only">Som de floresta</span>
+            </button>           
+            <button class="button-card ph ph-cloud-rain" data-action="rain">
+                <span class="sr-only">Som de chuva</span>
+            </button>   
+            <button class="button-card ph ph-storefront" data-action="coffee">
+                <span class="sr-only">Som de cafeteira</span>
+            </button>    
+            <button class="button-card ph ph-fire" data-action="fire">
+                <span class="sr-only">Som de lareira</span>
+            </button>                                     
+        </section>
+    </div>    
+</body>
+</html>
