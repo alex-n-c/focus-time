@@ -78,10 +78,6 @@ body{
     color: var(--color-button-control)
 }
 
-.button-control:hover{
-    color: var(--bg-color-select);
-}
-
 .controls-active{
     color: var(--bg-color-select);
 }
